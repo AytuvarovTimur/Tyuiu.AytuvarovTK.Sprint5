@@ -16,7 +16,7 @@ namespace Tyuiu.AytuvarovTK.Sprint5.Task0.V13
             int x = 5;
             Console.WriteLine("x = " + x);
             string path = ds.SaveToFileTextData(x);
-            Console.WriteLine("Результат сохранён в файл: " + path);
+            Console.WriteLine("Результат соdхранён в файл: " + path);
 
             Console.ReadKey();
 

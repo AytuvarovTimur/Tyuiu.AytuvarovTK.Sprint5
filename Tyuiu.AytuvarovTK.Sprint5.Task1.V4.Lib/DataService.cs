@@ -30,9 +30,9 @@ namespace Tyuiu.AytuvarovTK.Sprint5.Task1.V4.Lib
                     y = (System.Math.Cos(x) / x + 1) - System.Math.Cos(x) * 1.3 + 3 * x;
                     
                 }
-                y = System.Math.Round(y, 2);
-                strY = y.ToString();
-                File.AppendAllText(path, "F(" + x.ToString() + ") = " + strY + "\n");
+                y = Math.Round(y, 2);
+                strY = Convert.ToString(y);
+                File.AppendAllText(path, strY + "\n");
             }
             return path;
         }

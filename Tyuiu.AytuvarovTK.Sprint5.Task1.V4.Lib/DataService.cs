@@ -27,8 +27,8 @@ namespace Tyuiu.AytuvarovTK.Sprint5.Task1.V4.Lib
                 }
                 else
                 {
-                    y = (System.Math.Cos(x) / x + 1) - System.Math.Cos(x) * 1.3 + 3 * x;
-                    
+                    y = (System.Math.Cos(x) / (x + 1)) - System.Math.Cos(x) * 1.3 + 3 * x;
+
                 }
                 y = Math.Round(y, 2);
                 strY = Convert.ToString(y);

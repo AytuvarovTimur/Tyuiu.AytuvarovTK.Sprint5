@@ -21,7 +21,7 @@ namespace Tyuiu.AytuvarovTK.Sprint5.Task1.V4.Lib
             string strY;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
+                if (x + 1 == 0)
                 {
                     y = 0;
                 }

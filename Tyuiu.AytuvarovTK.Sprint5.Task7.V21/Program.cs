@@ -25,7 +25,7 @@ namespace Tyuiu.LavrentevVA.Sprint5.Task3.V19
 
             string result = ds.LoadDataAndSave(tempFilePath);
 
-            string outputPath = Path.Combine(tempDirectory, "OutPutDataFileTask7V29.txt");
+            string outputPath = Path.Combine(tempDirectory, "OutPutDataFileTask7V21.txt");
             File.WriteAllText(outputPath, result);
 
             Console.WriteLine($"Результат сохранён в: {outputPath}");

@@ -15,7 +15,7 @@ namespace Tyuiu.LavrentevVA.Sprint5.Task3.V19
 
             int x = 3;
             string path = ds.SaveToFileTextData(x);
-            Console.WriteLine("Файл: " + path);
+            Console.WriteLine("Фsайл: " + path);
             Console.WriteLine("Создан!");
 
             Console.ReadKey();

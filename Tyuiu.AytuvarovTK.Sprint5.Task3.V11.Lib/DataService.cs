@@ -13,17 +13,13 @@ namespace Tyuiu.AytuvarovTK.Sprint5.Task3.V11.Lib
             {
                 File.Delete(path);
             }
-            double y = 4.0 - (Math.Pow(x, 3) / Math.Pow(x, 2));
+            double y = (4.0 - (Math.Pow(x, 3)) / Math.Pow(x, 2));
             y = Math.Round(y, 3);
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.Create)))
             {
                 writer.Write(y);
             }
-
-            byte[] fileBytes = File.ReadAllBytes(path);
-            string base64Result = Convert.ToBase64String(fileBytes);
-
-            return base64Result;
+            return path;
         }
     }
 }
